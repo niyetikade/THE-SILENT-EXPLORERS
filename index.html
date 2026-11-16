@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SILENT EXPLORERS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- FRONT PAGE -->
+    <section id="frontPage">
+        <img src="Earth.png" class="earth-background" alt="Earth">
+        <div class="front-overlay"></div>
+
+        <div class="front-content">
+            <p class="small-heading">A JOURNEY THROUGH SPACE HISTORY</p>
+            <h1>THE SILENT<br>EXPLORERS</h1>
+            <p class="tagline">The machines. The discoveries. The unknown.</p>
+            <button id="beginButton">BEGIN YOUR MISSION</button>
+        </div>
+    </section>
+
+    <!-- STORY -->
+    <main id="movie" class="hidden">
+
+        <div class="top-bar">
+            <span>THE SILENT EXPLORERS</span>
+            <span id="chapterNumber">PROLOGUE</span>
+        </div>
+
+        <div id="visualArea">
+            <img id="sceneImage" src="Earth.png" alt="Story scene">
+            <div class="image-shade"></div>
+
+            <div id="chapterCard" class="hidden">
+                <p id="chapterEyebrow"></p>
+                <h1 id="chapterTitle"></h1>
+                <p id="chapterSubtitle"></p>
+            </div>
+
+            <div id="speakerPortrait" class="hidden">
+                <img id="characterImage" src="" alt="Speaking character">
+            </div>
+
+            <div id="dialogueBox">
+                <p id="speakerName">NARRATOR</p>
+                <p id="dialogueText"></p>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <div class="progress-track">
+                <div id="progress"></div>
+            </div>
+
+            <div class="controls">
+                <button id="muteButton">MUTE</button>
+                <button id="nextButton">CONTINUE →</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
